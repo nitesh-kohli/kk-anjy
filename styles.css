@@ -1,0 +1,31 @@
+body{
+    background-color: white;
+}
+
+.pic{
+    width:50%;
+    height:50%;
+    border:6px solid black;
+    margin:5px;
+}
+
+ul{
+    list-style-type: none;
+    display: block;
+    
+}
+.audio{
+    float: right;
+}
+li{
+    float:left;
+}
+.caption{
+    float:left;
+    margin-bottom: 35px;
+    margin-top: 0px;
+    font-size: 25px;
+    text-align: justify;
+    border:1px solid #07e607;
+}
+
