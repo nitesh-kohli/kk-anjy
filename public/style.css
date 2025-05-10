@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100vw;
+  background-color: rgb(255, 220, 146);
+  font-family: sans-serif;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  padding: 40px 20px 0px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+h2 {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.audioclass {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+audio {
+  width: 500px;
+  border: 2px solid black;
+  border-radius: 50px;
+}
+
+#page1 {
+  width: 100vw;
+  height: 300vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.line1 {
+  min-height: 100vh;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.line1 .image-div {
+  height: auto;
+  width: 100%;
+  object-fit: fill;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  border: 10px double rgb(255, 143, 95);
+  border-radius: 50px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.image-container {
+  height: 100%;
+  width: 100%;
+}
+
+.image-div img {
+  width: 100%;
+  height: 100%;
+}
+
+.image-div:hover img {
+  scale: 1.5;
+  transition: all ease-out 4s;
+}
+
+.image-container .overlay {
+  /* position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  border-radius: 50px;
+  opacity: 0; */
+}
+.overlay p {
+  /* position: absolute;
+  text-transform: uppercase;
+  color: white;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  left: 50%; */
+}
+
+/* .pic {
+  width: 50%;
+  height: 50%;
+  border: 6px solid black;
+  margin: 5px;
+}
+
+ul {
+  list-style-type: none;
+  display: block;
+}
+.audio {
+  float: right;
+}
+li {
+  float: left;
+}
+.caption {
+  float: left;
+  margin-bottom: 35px;
+  margin-top: 0px;
+  font-size: 25px;
+  text-align: justify;
+  border: 1px solid #07e607;
+} */
